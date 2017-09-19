@@ -6,6 +6,7 @@
 package br.edu.ifsc.projeto.view;
 
 import java.awt.Color;
+import java.util.ArrayList;
 
 /**
  *
@@ -16,10 +17,11 @@ public class GuiPrincipal extends javax.swing.JFrame {
     /**
      * Creates new form GuiPrincipal
      */
+    public static ArrayList<Object> userdata;
     public GuiPrincipal() {
         
         initComponents();
-        jdpPrncipal.setBackground(Color.darkGray);
+        //jdpPrncipal.setBackground(Color.darkGray);
         
     }
 

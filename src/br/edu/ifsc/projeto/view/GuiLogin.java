@@ -8,9 +8,15 @@ package br.edu.ifsc.projeto.view;
 import com.jgoodies.looks.plastic.PlasticLookAndFeel;
 import com.jgoodies.looks.plastic.theme.BrownSugar;
 import com.jgoodies.looks.plastic.theme.DarkStar;
+import com.jgoodies.looks.plastic.theme.DesertBlue;
+import com.jgoodies.looks.plastic.theme.DesertBluer;
 import com.jgoodies.looks.plastic.theme.ExperienceRoyale;
+import com.jgoodies.looks.plastic.theme.Silver;
 import com.jgoodies.looks.plastic.theme.SkyBlue;
+import com.jgoodies.looks.plastic.theme.SkyBluer;
 import com.jgoodies.looks.plastic.theme.SkyGreen;
+import com.jgoodies.looks.plastic.theme.SkyPink;
+import com.jgoodies.looks.plastic.theme.SkyYellow;
 import java.awt.Color;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,7 +29,7 @@ import javax.swing.UnsupportedLookAndFeelException;
  * @author Iva
  */
 public class GuiLogin extends javax.swing.JFrame {
-
+        
     /**
      * Creates new form GuiPrincipal
      */
@@ -34,7 +40,7 @@ public class GuiLogin extends javax.swing.JFrame {
 
     private void setLookAndFeel(){
         try {
-            PlasticLookAndFeel.setPlasticTheme(new DarkStar());
+            PlasticLookAndFeel.setPlasticTheme(new SkyBlue());
                   try {
                       UIManager.setLookAndFeel("com.jgoodies.looks.plastic.Plastic3DLookAndFeel");
                   } catch (InstantiationException ex) {
